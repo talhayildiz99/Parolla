@@ -19,6 +19,8 @@ namespace Parolla
 
         int SoruNo = 0, Dogru = 0, Yanlis = 0;
 
+       
+
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -29,291 +31,347 @@ namespace Parolla
                         if (textBox1.Text == "ANIT")
                         {
                             buttonA.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonA.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;  
                     case 2:
                         if (textBox1.Text == "BİTAP")
                         {
                             buttonB.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonB.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 3:
                         if (textBox1.Text == "CAİZ")
                         {
                             buttonC.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonC.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 4:
                         if (textBox1.Text == "ÇARPICI")
                         {
                             buttonCH.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonCH.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 5:
                         if (textBox1.Text == "DEŞARJ")
                         {
                             buttonD.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonD.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 6:
                         if (textBox1.Text == "EMNİYET")
                         {
                             buttonE.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonE.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 7:
                         if (textBox1.Text == "FAKTÖR")
                         {
                             buttonF.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonF.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 8:
                         if (textBox1.Text == "GÜRUH")
                         {
                             buttonG.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonG.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 9:
                         if (textBox1.Text == "HÜKÜMDAR")
                         {
                             buttonH.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonH.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 10:
                         if (textBox1.Text == "ISLAK")
                         {
                             buttonI.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonI.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 11:
                         if (textBox1.Text == "İŞKİLLENMEK")
                         {
                             buttonIH.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonIH.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 12:
                         if (textBox1.Text == "JAK")
                         {
                             buttonJ.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonJ.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 13:
                         if (textBox1.Text == "KLAVYE")
                         {
                             buttonK.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonK.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 14:
                         if (textBox1.Text == "LİBİDO")
                         {
                             buttonL.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonL.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 15:
                         if (textBox1.Text == "MARŞ")
                         {
                             buttonM.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonM.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 16:
                         if (textBox1.Text == "NEVA")
                         {
                             buttonN.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonN.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 17:
                         if (textBox1.Text == "OĞLAN")
                         {
                             buttonO.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonO.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 18:
                         if (textBox1.Text == "ÖRF")
                         {
                             buttonOH.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonOH.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 19:
                         if (textBox1.Text == "PAÇA")
                         {
                             buttonP.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonP.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 20:
                         if (textBox1.Text == "RÜTBE")
                         {
                             buttonR.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonR.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 21:
                         if (textBox1.Text == "STENT")
                         {
                             buttonS.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonS.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 22:
                         if (textBox1.Text == "ŞIK")
                         {
                             buttonSH.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonSH.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 23:
                         if (textBox1.Text == "TENİS")
                         {
                             buttonT.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonT.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 24:
                         if (textBox1.Text == "UZAY")
                         {
                             buttonU.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonU.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 25:
                         if (textBox1.Text == "ÜNLÜ")
                         {
                             buttonUH.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonUH.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 26:
                         if (textBox1.Text == "VEFA")
                         {
                             buttonV.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonV.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 27:
                         if (textBox1.Text == "YEVMİYE")
                         {
                             buttonY.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonY.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                     case 28:
                         if (textBox1.Text == "ZİRVE")
                         {
                             buttonZ.BackColor = Color.Green;
+                            Dogru++;
                         }
                         else
                         {
                             buttonZ.BackColor = Color.Red;
+                            Yanlis++;
                         }
                         break;
                 }
             }
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            SoruNo++;
+        SoruNo++;
             this.Text = SoruNo.ToString();
-
+            textBox1.Clear();
             if (SoruNo == 1)
             {
                 richTextBox1.Text = "Sembol niteliğindeki yapı";

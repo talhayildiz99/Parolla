@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonA = new System.Windows.Forms.Button();
             this.buttonJ = new System.Windows.Forms.Button();
             this.buttonIH = new System.Windows.Forms.Button();
@@ -350,7 +349,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(461, 68);
             this.richTextBox1.TabIndex = 34;
-            this.richTextBox1.Text = "Başlamak için OK Butonuna Basınız";
+            this.richTextBox1.Text = "Sonraki tuşuna basarak başlayınız. ";
             // 
             // groupBox2
             // 
@@ -365,15 +364,14 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel1.Image")));
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(219, 86);
+            this.linkLabel1.Location = new System.Drawing.Point(180, 86);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(42, 32);
+            this.linkLabel1.Size = new System.Drawing.Size(140, 32);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "    ";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel1.Text = "SONRAKİ";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // textBox1
             // 
@@ -472,7 +470,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "0";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
